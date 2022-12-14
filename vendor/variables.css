@@ -1,3 +1,4 @@
 :root{
-  --variables : 10px; /* Переменная : свойтва */ 
+  --white : #fff; 
+  --black : #000;
 }

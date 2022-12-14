@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./pages/index.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Otium — это мечта о том, чтобы настольные игры стали по-
+  настоящему популярным развлечением в России, которая сбылась.">
+  <meta name="keywords" content="Otium, Настольные игры">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Otium</title>
 </head>
+
 <body class="page">
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <nav class="nav">
-        <img src="'/images/header/photo_1.png'" alt="логотип сайта">
-        <a class="link" href=""><img src="./images/header/logo.svg" alt="логотип сайта otium-games"></a>
-        <ul>
-          <li><a href="">Главная страница</a></li>
-          <li><a href="">Каталог</a></li>
-          <li><a href="">Предзаказы</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-        <a href="tel:+7 925 839-23-64">+7 925 839-23-64</a>
+        <div class="nav__container">
+          <a class="link logo" href="#">
+            <img class="logo__image" src="./images/header/logo.svg" alt="логотип сайта otium-games">
+          </a>
+          <ul class="lists header__lists">
+            <li class="list">
+              <a class="link header__link" href="#">Главная страница</a>
+            </li>
+            <li class="list">
+              <a class="link header__link" href="#">Каталог</a>
+            </li>
+            <li class="list">
+              <a class="link header__link" href="#">Предзаказы</a>
+            </li>
+            <li class="list">
+              <a class="link header__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <a class="link header__link header__tel-number" href="tel:+79258392364">+7 925 839-23-64</a>
       </nav>
-      <div class="header__container">
-        <h1>Otium</h1>
-        <p>Интернет-магазин настольных игр</p>
-        <p>Оформить заказ</p>
+      <div class="header__container-desc">
+        <h1 class="title header__title">Otium</h1>
+        <p class="text header__text">Интернет-магазин <br> настольных игр</p>
+        <a class="link header__button">Оформить заказ</a>
       </div>
     </div>
   </header>
   <main class="main">
-    <div class="container">
+    <div class="container main__container">
       <section class="about">
-        <h2 class="about__title"></h2>
-        <article>
-          <h3>Настольные игры на любую компанию</h3>
-          <p>Otium — это мечта о том, чтобы настольные игры стали по-
-            настоящему популярным развлечением в России, которая сбылась. С
-            2009 года мы собираем лучшее из настольного мира, чтобы посиделки
-            с друзьями, вечер вдвоём, отдых на природе и семейные встречи были 
-            ещё веселее, теплее и интереснее. Мы верим, что это хобби может 
-            приносить удовольствие каждому, нужно только найти подходящую игру!</p>
-          <img src="/images/favicon/boardgames1.png" alt="">
-          <img src="/images/favicon/boardgames2.png" alt="">
-        </article>
-        <article>
-          <h3>Предзаказы и перезапуски</h3>
-          <p>Ежегодно мы издаем множество настольных хитов. Часть из них мы бы 
-            никогда не привезли в Россию, если бы не система предзаказа.
-            Как это работает?
-            Вы оформляете предзаказ на сайте otium-games.com на игру, оплачивая 
-            стоимость заранее. Мы запускаем производство, а через некоторое 
-            время после этого игра приезжает ко всем оформившим предзаказ. 
-            Ориентировочные сроки поступления указываются на странице 
-            предзаказа для каждой игры отдельно</p>
-          <img src="/images/favicon/beast.png" alt="Настольная игра Beast">
-        </article>
+        <h2 class="title about__title">О нас</h2>
+        <div class="about__container">
+          <article class="otium">
+            <h3 class="title otium__title">Настольные игры на любую компанию</h3>
+            <div class="text-container">
+              <p class="text otium__text">Otium&nbsp;&mdash; это мечта о&nbsp;том, чтобы настольные игры стали
+                по-настоящему
+                популярным развлечением в&nbsp;России, которая сбылась. С&nbsp;2009 года мы&nbsp;собираем лучшее
+                из&nbsp;настольного мира, чтобы посиделки с&nbsp;друзьями, вечер вдвоём, отдых на&nbsp;природе
+                и&nbsp;семейные встречи были ещё веселее, теплее и&nbsp;интереснее. Мы&nbsp;верим, что это хобби может
+                приносить удовольствие каждому, нужно только найти подходящую игру!</p>
+            </div>
+            <div class="otium__container">
+              <img class="otium__image" src="./images/otium/boardgames-first.png" alt="Otium — это мечта о том, чтобы настольные игры стали по-
+                настоящему популярным развлечением в России, которая сбылась.">
+              <img class="otium__image" src="./images/otium/boardgames-second.png" alt="Otium — это мечта о том, чтобы настольные игры стали по-
+                настоящему популярным развлечением в России, которая сбылась.">
+            </div>
+          </article>
+          <article class="relaunch">
+            <h3 class="title relaunch__title">Предзаказы и перезапуски</h3>
+            <div class="text-container">
+              <p class="text relaunch__text">
+                Ежегодно мы&nbsp;издаем множество настольных хитов. Часть из&nbsp;них мы&nbsp;бы никогда не&nbsp;привезли
+                в&nbsp;Россию, если&nbsp;бы не&nbsp;система предзаказа.</p>
+              <span class="text relaunch__text relaunch__text_bold">Как это работает?</span>
+              <p class="text relaunch__text">Вы&nbsp;оформляете предзаказ на&nbsp;сайте otium-games.com на&nbsp;игру,
+                оплачивая стоимость заранее.
+                Мы&nbsp;запускаем производство, а&nbsp;через некоторое время после этого игра приезжает ко&nbsp;всем
+                оформившим предзаказ. Ориентировочные сроки поступления указываются на&nbsp;странице предзаказа для каждой
+                игры отдельно
+              </p>
+            </div>
+            <img class="relaunch__image" src="./images/relaunch/beast.png" alt="Настольная игра Beast">
+          </article>
+        </div>
       </section>
     </div>
   </main>
   <footer class="footer">
-    <div class="container">
-      <p>footer</p>
-      <p></p>
+    <div class="container footer__container">
+      <p class="footer__copyright">2022</p>
+      <p class="footer__author">Pervakova Victoria</p>
     </div>
   </footer>
-  <script src="./script/index.js"></script>
 </body>
+
 </html>

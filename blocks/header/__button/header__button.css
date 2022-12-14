@@ -1,0 +1,23 @@
+.header__button{
+    margin: 275px 0 0 0;
+
+    width: 100%;
+    max-width: 260px;
+    min-height: 65px;
+    max-height: 65px;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    border:1px solid;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
